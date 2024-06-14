@@ -1,6 +1,136 @@
 header{
-    color:white;
+    background-color:white;
 }
 .maintext{
-    color: 2196F3;
+    color: #2196F3;
 }
+.main-span{
+    color: #212121;
+    
+
+}
+.studia-a{
+    color: #212121;
+
+}
+
+.studia-a:hover{
+    color:  #2196F3;
+    
+
+}
+
+.portfolio-a{
+    color: #212121;
+
+}
+
+.portfolio-a:hover{
+    color:  #2196F3;
+    
+
+}
+
+.contacts-a{
+    color: #212121;
+
+}
+
+.contacts-a:hover{
+    color:  #2196F3;
+    
+
+}
+
+.imail{
+    color: #757575;
+    
+
+}
+
+.imail:hover{
+    color:  #2196F3;
+    
+
+}
+
+.telefon{
+    color: #757575;
+    
+
+}
+
+.telefon:hover{
+    color:  #2196F3;
+    
+
+}
+
+
+.efectnisection{
+    background-color: #2F303A;
+}
+
+
+h1{
+    color: white;
+}
+
+.butten-first-section{
+    background: #2196F3;
+color: white;
+}
+
+.h3section2{
+    color:  #212121;
+    
+}
+
+.p-section2{
+    color: #757575;
+}
+
+.section-work-title{
+    color: #212121;
+}
+.section-4{
+    background: #F5F4FA;
+
+}
+
+.rabota{
+   color: #757575; 
+}
+.name-section-4{
+    color: #212121;
+}
+
+
+.logo-footer{
+    color: #2196F3
+}
+
+.spanfooter{
+    color: white;
+    }
+
+
+    footer{
+        background: #2F303A;
+
+    }
+
+    .kiev{
+        color: #FFFFFF;
+    }
+.imeil2{
+    color: #757575;
+}
+
+.tell2{
+    color: #757575;
+}
+
+
+
+
