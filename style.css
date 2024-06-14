@@ -3,6 +3,7 @@ header{
 }
 .maintext{
     color: #2196F3;
+    font-family: "Raleway";
 }
 .main-span{
     color: #212121;
@@ -11,6 +12,7 @@ header{
 }
 .studia-a{
     color: #212121;
+    font-family: "Roboto";
 
 }
 
@@ -22,6 +24,7 @@ header{
 
 .portfolio-a{
     color: #212121;
+    font-family: "Roboto";
 
 }
 
@@ -33,6 +36,7 @@ header{
 
 .contacts-a{
     color: #212121;
+    font-family: "Roboto";
 
 }
 
@@ -45,7 +49,7 @@ header{
 .imail{
     color: #757575;
     
-
+    font-family: "Roboto";
 }
 
 .imail:hover{
@@ -57,7 +61,7 @@ header{
 .telefon{
     color: #757575;
     
-
+    font-family: "Roboto";
 }
 
 .telefon:hover{
@@ -69,29 +73,34 @@ header{
 
 .efectnisection{
     background-color: #2F303A;
+  
 }
 
 
 h1{
     color: white;
+    font-family: "Roboto";
 }
 
 .butten-first-section{
     background: #2196F3;
 color: white;
+font-family: "Roboto";
 }
 
 .h3section2{
     color:  #212121;
-    
+    font-family: "Roboto";
 }
 
 .p-section2{
     color: #757575;
+    font-family: "Roboto";
 }
 
 .section-work-title{
     color: #212121;
+    font-family: "Roboto";
 }
 .section-4{
     background: #F5F4FA;
@@ -100,14 +109,17 @@ color: white;
 
 .rabota{
    color: #757575; 
+   font-family: "Roboto";
 }
 .name-section-4{
     color: #212121;
+    font-family: "Roboto";
 }
 
 
 .logo-footer{
-    color: #2196F3
+    color: #2196F3;
+    font-family: "Raleway";
 }
 
 .spanfooter{
@@ -122,13 +134,16 @@ color: white;
 
     .kiev{
         color: #FFFFFF;
+        font-family: "Roboto";
     }
 .imeil2{
     color: #757575;
+    font-family: "Roboto";
 }
 
 .tell2{
     color: #757575;
+    font-family: "Roboto";
 }
 
 
