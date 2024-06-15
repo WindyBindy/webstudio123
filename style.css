@@ -1,148 +1,176 @@
+
+
+
+
+
+
+:root {
+    --main-color: #FFFFFF;
+    --color-section:#2196F3;
+    --black-white-color:#212121;
+    --imail-color :#757575;
+    --first-section-backgraund:#2F303A;
+    --secondwhite:#F5F4FA;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header{
-    background-color:white;
+    background-color:var(--main-color);
 }
 .maintext{
-    color: #2196F3;
+    color: var(--color-section);
     font-family: "Raleway";
 }
 .main-span{
-    color: #212121;
+    color:var(--black-white-color);
     
 
 }
 .studia-a{
-    color: #212121;
+    color: var(--black-white-color);
     font-family: "Roboto";
 
 }
 
 .studia-a:hover{
-    color:  #2196F3;
+    color:  var(--color-section);
     
 
 }
 
 .portfolio-a{
-    color: #212121;
+    color: var(--black-white-color);
     font-family: "Roboto";
 
 }
 
 .portfolio-a:hover{
-    color:  #2196F3;
+    color:  var(--color-section);
     
 
 }
 
 .contacts-a{
-    color: #212121;
+    color: var(--black-white-color);
     font-family: "Roboto";
 
 }
 
 .contacts-a:hover{
-    color:  #2196F3;
+    color: var(--color-section);
     
 
 }
 
 .imail{
-    color: #757575;
+    color: var(--imail-color);
     
     font-family: "Roboto";
 }
 
 .imail:hover{
-    color:  #2196F3;
+    color:  var(--color-section);
     
 
 }
 
 .telefon{
-    color: #757575;
+    color: var(--imail-color);
     
     font-family: "Roboto";
 }
 
 .telefon:hover{
-    color:  #2196F3;
+    color:  var(--color-section);
     
 
 }
 
 
 .efectnisection{
-    background-color: #2F303A;
+    background-color:var(--first-section-backgraund) ;
   
 }
 
 
 h1{
-    color: white;
+    color: var(--main-color);
     font-family: "Roboto";
 }
 
 .butten-first-section{
-    background: #2196F3;
-color: white;
+    background: var(--color-section);
+color: var(--main-color);
 font-family: "Roboto";
 }
 
 .h3section2{
-    color:  #212121;
+    color:  var(--black-white-color);
     font-family: "Roboto";
 }
 
 .p-section2{
-    color: #757575;
+    color: var(--imail-color);
     font-family: "Roboto";
 }
 
 .section-work-title{
-    color: #212121;
+    color: var(--black-white-color);
     font-family: "Roboto";
 }
 .section-4{
-    background: #F5F4FA;
+    background: var(--secondwhite);
 
 }
 
 .rabota{
-   color: #757575; 
+   color: var(--imail-color); 
    font-family: "Roboto";
 }
 .name-section-4{
-    color: #212121;
+    color: var(--black-white-color);
     font-family: "Roboto";
 }
 
 
 .logo-footer{
-    color: #2196F3;
+    color: var(--color-section);
     font-family: "Raleway";
 }
 
 .spanfooter{
-    color: white;
+    color: var(--main-color);
     }
 
 
     footer{
-        background: #2F303A;
+        background: var(--first-section-backgraund);
 
     }
 
     .kiev{
-        color: #FFFFFF;
+        color: var(--main-color);
         font-family: "Roboto";
     }
 .imeil2{
-    color: #757575;
+    color: var(--imail-color);
     font-family: "Roboto";
 }
 
 .tell2{
-    color: #757575;
+    color: var(--imail-color);
     font-family: "Roboto";
 }
 
