@@ -1,0 +1,249 @@
+
+:root {
+    --main-color: #FFFFFF;
+    --color-section:#2196F3;
+    --black-white-color:#212121;
+    --imail-color :#757575;
+    --first-section-backgraund:#2F303A;
+    --secondwhite:#F5F4FA;
+    --logo-color:#000;
+
+}
+
+
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid black;
+}
+
+
+
+
+body{
+font-family: "Roboto";
+}
+
+.header{
+    background-color: var(--main-color);
+
+    padding-top: 25px;
+    padding-bottom: 24px;
+}
+
+.header-logo{
+    color: var(--logo-color);
+font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.header-web{
+    color: var(--color-section);
+}
+
+.nav-link{
+color: var(--black-white-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.nav-link:hover{
+color: var(--color-section);
+}
+
+.header-link{
+    color: var(--imail-color);
+
+font-size: 14px;
+
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.28px;
+}
+
+.hero{
+    padding-top:200px;
+    padding-bottom: 200px;
+    background-color: var(--first-section-backgraund);
+}
+
+.hero-title{
+color: var(--main-color);
+text-align: center;
+font-size: 44px;
+line-height: 1.36;
+font-weight: 900;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
+
+
+.hero-butten{
+color: var(--main-color);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 0.96px;
+
+background-color: var(--color-section);
+}
+
+.advnt{
+    padding-top: 94px;
+}
+
+.advnt-title{
+color: var(--black-white-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.advnt-text{
+color: var(--imail-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}
+
+.work{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.work-title{
+color: var(--black-white-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+}
+
+.team{
+    background-color: var(--secondwhite);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title{
+    color: var(--black-white-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+}
+
+
+.team-name{
+    color: var(--black-white-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.48px;
+}
+
+.team-text{
+    color: var(--imail-color);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+}
+
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--first-section-backgraund);
+}
+
+.logo-footer{
+    color: var(--main-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+}
+.footer-web{
+color: var(--color-section);
+}
+
+.footer-map{
+    color: var(--main-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+}
+
+.footer-link{
+    color: var(--imail-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+
+.button-btn{
+    color: var(--black-white-color);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.62;
+letter-spacing: 0.48px;
+background-color: var(--secondwhite);
+}
+
+
+.button-btn:hover{
+    background-color: var(--color-section);
+    color: var(--main-color);
+}
+
+.card-title{
+    color: var(--black-white-color);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.card-text{
+    color: var(--imail-color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87; /* 187.5% */
+    letter-spacing: 0.48px;
+}
