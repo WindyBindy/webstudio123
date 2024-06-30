@@ -36,7 +36,12 @@ header{
 .maintext{
     color: var(--color-section);
     font-family: "Raleway";
+    
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
+    letter-spacing: 0.78px;
 }
 .main-span{
     color:var(--black-white-color);
@@ -45,8 +50,14 @@ header{
 }
 .studia-a{
     color: var(--black-white-color);
-    font-family: "Roboto";
+   
+    font-family: "Raleway";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
+    letter-spacing: 0.78px;
+
 }
 
 .studia-a:hover{
@@ -57,8 +68,12 @@ header{
 
 .portfolio-a{
     color: var(--black-white-color);
-    font-family: "Roboto";
-    line-height: normal;
+    font-family: "Raleway";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
 }
 
 .portfolio-a:hover{
@@ -69,8 +84,12 @@ header{
 
 .contacts-a{
     color: var(--black-white-color);
-    font-family: "Roboto";
+    font-family: "Raleway";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
+    letter-spacing: 0.78px;
 
 
 }
@@ -83,9 +102,12 @@ header{
 
 .imail{
     color: var(--imail-color);
-    
-    font-family: "Roboto";
-    line-height: normal;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 
 }
 
@@ -97,9 +119,12 @@ header{
 
 .telefon{
     color: var(--imail-color);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
     line-height: normal;
-    
-    font-family: "Roboto";
+    letter-spacing: 0.28px;
 }
 
 .telefon:hover{
@@ -117,33 +142,74 @@ header{
 
 h1{
     color: var(--main-color);
-    font-family: "Roboto";
+
     line-height: 0.5333333333;
+
+
+text-align: center;
+
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 
 .butten-first-section{
     background: var(--color-section);
 color: var(--main-color);
-font-family: "Roboto";
+
 line-height: 0.5333333333;
+
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 0.96px;
 }
 
 .h3section2{
     color:  var(--black-white-color);
-    font-family: "Roboto";
-    line-height: normal;
+  
+
+
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
 }
 
 .p-section2{
     color: var(--imail-color);
-    font-family: "Roboto";
+
     line-height: 0,5833333333333333;
+
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.42px;
 }
 
 .section-work-title{
     color: var(--black-white-color);
-    font-family: "Roboto";
+
     line-height: normal;
+
+
+text-align: center;
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 1.08px;
 }
 .section-4{
     background: var(--secondwhite);
@@ -154,21 +220,47 @@ line-height: 0.5333333333;
     color: var(--black-white-color);
 
 
-font-family: "Roboto";
+
 
 line-height: normal;
+
+text-align: center;
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 1.08px;
 
 }
 
 .rabota{
    color: var(--imail-color); 
-   font-family: "Roboto";
+
    line-height: normal;
+
+
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.48px;
 }
 .name-section-4{
     color: var(--black-white-color);
-    font-family: "Roboto";
+
     line-height: normal;
+
+
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+
+letter-spacing: 0.48px;
 }
 
 
@@ -176,10 +268,20 @@ line-height: normal;
     color: var(--color-section);
     font-family: "Raleway";
     line-height: normal;
+
+
+
+
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 0.78px;
 }
 
 .spanfooter{
     color: var(--main-color);
+
     }
 
 
@@ -190,34 +292,88 @@ line-height: normal;
 
     .kiev{
         color: var(--main-color);
-        font-family: "Roboto";
+
         line-height: 0,5833333333333333;
+
+        color: #FFF;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.42px;
     }
+
+
 .imeil2{
     color: var(--imail-color);
-    font-family: "Roboto";
+
     line-height: 0,5833333333333333;
+
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.42px;
 }
 
 .tell2{
     color: var(--imail-color);
-    font-family: "Roboto";
+
     line-height: 0,5833333333333333;
+
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+letter-spacing: 0.42px;
 }
 
 
 
-.h3-li{
-    color: var(--black-white-color);
-
-font-family: "Roboto";
+.card-title{
+color: var(--black-white-color);
 line-height: 0.5;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 1.08px;
 }
-.p-li{
-    font-family: "Roboto";
-    color: var(--imail-color);
-line-height: 0,5333333333333333;
+
+.card-text{
+color: var(--imail-color);
+line-height: 0,53;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.48px;
 }
+
+.button-portfolio{
+
+    background-color: var(--secondwhite);
+    color: var(--black-white-color);
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height:26px ; 
+letter-spacing: 0.48px;
+border-radius: 4px;
+}
+
+.button-portfolio:hover{
+background-color: var(--color-section);
+}
+
+
+
+
+
+
 
 
 
