@@ -19,6 +19,7 @@
 body{
    
     font-family: "Roboto";
+
 }
 
 
@@ -35,6 +36,7 @@ header{
 .maintext{
     color: var(--color-section);
     font-family: "Raleway";
+    line-height: normal;
 }
 .main-span{
     color:var(--black-white-color);
@@ -44,19 +46,19 @@ header{
 .studia-a{
     color: var(--black-white-color);
     font-family: "Roboto";
-
+    line-height: normal;
 }
 
 .studia-a:hover{
     color:  var(--color-section);
-    
+   
 
 }
 
 .portfolio-a{
     color: var(--black-white-color);
     font-family: "Roboto";
-
+    line-height: normal;
 }
 
 .portfolio-a:hover{
@@ -68,6 +70,8 @@ header{
 .contacts-a{
     color: var(--black-white-color);
     font-family: "Roboto";
+    line-height: normal;
+
 
 }
 
@@ -81,6 +85,8 @@ header{
     color: var(--imail-color);
     
     font-family: "Roboto";
+    line-height: normal;
+
 }
 
 .imail:hover{
@@ -91,6 +97,7 @@ header{
 
 .telefon{
     color: var(--imail-color);
+    line-height: normal;
     
     font-family: "Roboto";
 }
@@ -111,46 +118,64 @@ header{
 h1{
     color: var(--main-color);
     font-family: "Roboto";
+    line-height: 0.5333333333;
 }
 
 .butten-first-section{
     background: var(--color-section);
 color: var(--main-color);
 font-family: "Roboto";
+line-height: 0.5333333333;
 }
 
 .h3section2{
     color:  var(--black-white-color);
     font-family: "Roboto";
+    line-height: normal;
 }
 
 .p-section2{
     color: var(--imail-color);
     font-family: "Roboto";
+    line-height: 0,5833333333333333;
 }
 
 .section-work-title{
     color: var(--black-white-color);
     font-family: "Roboto";
+    line-height: normal;
 }
 .section-4{
     background: var(--secondwhite);
 
 }
 
+.rbotacomand{
+    color: var(--black-white-color);
+
+
+font-family: "Roboto";
+
+line-height: normal;
+
+}
+
 .rabota{
    color: var(--imail-color); 
    font-family: "Roboto";
+   line-height: normal;
 }
 .name-section-4{
     color: var(--black-white-color);
     font-family: "Roboto";
+    line-height: normal;
 }
 
 
 .logo-footer{
     color: var(--color-section);
     font-family: "Raleway";
+    line-height: normal;
 }
 
 .spanfooter{
@@ -166,15 +191,32 @@ font-family: "Roboto";
     .kiev{
         color: var(--main-color);
         font-family: "Roboto";
+        line-height: 0,5833333333333333;
     }
 .imeil2{
     color: var(--imail-color);
     font-family: "Roboto";
+    line-height: 0,5833333333333333;
 }
 
 .tell2{
     color: var(--imail-color);
     font-family: "Roboto";
+    line-height: 0,5833333333333333;
+}
+
+
+
+.h3-li{
+    color: var(--black-white-color);
+
+font-family: "Roboto";
+line-height: 0.5;
+}
+.p-li{
+    font-family: "Roboto";
+    color: var(--imail-color);
+line-height: 0,5333333333333333;
 }
 
 
