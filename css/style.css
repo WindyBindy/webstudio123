@@ -18,7 +18,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 
 
@@ -33,6 +33,7 @@ font-family: "Roboto";
 
     padding-top: 25px;
     padding-bottom: 24px;
+   
 }
 
 .header-logo{
@@ -42,6 +43,7 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
+
 }
 
 .header-web{
@@ -203,7 +205,184 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.71; 
 letter-spacing: 0.42px;
+
 }
+
+
+/* flex-box */
+
+
+.header-box{
+    display: flex;
+}
+
+
+
+.header-logo{
+    margin-right: 93px;
+}
+
+
+
+
+.header-list{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+
+.hero-box{
+    display: flex;
+   
+  flex-direction: column;
+
+}
+
+.hero-title{
+    width: 696px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+ 
+}
+
+.hero-butten{
+ display: block;
+ justify-content: center;
+margin-left: 468px;
+margin-right: 468px;
+padding:10px ;
+  
+
+}
+
+.advnt-list{
+display: flex;
+flex-direction: row;
+gap: 30px;
+}
+
+
+
+.advnt-title{
+    margin-bottom:10px ;
+}
+
+
+
+.work-list{
+    display: flex;
+    gap: 30px;
+}
+
+.work-title{
+    margin-bottom: 50px;
+}
+
+
+
+.team-list{
+    display: flex;
+    gap:30px ;
+}
+
+
+.team-item{
+    background-color:#FFFFFF ;
+
+}
+
+
+.team-img{
+    margin-bottom: 30px;
+}
+
+.team-name{
+    margin-bottom: 10px;
+}
+
+.team-title{
+margin-bottom: 50px;
+}
+
+.team-text{
+    margin-bottom: 30px;
+}
+
+
+.footer-list{
+    margin-top: 20px;
+}
+
+.footer-item{
+    margin-bottom: 9px;
+}
+
+
+
+/* flex-box-portfolio */
+
+.card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three-containers{
+    display: flex;
+    margin-bottom:30px ;
+    gap: 30px;
+}
+
+.card-item{
+    background-color: #FFFFFF;
+    border: 1px solid #EEE;
+    width: 370px;
+}
+
+.card-title{
+margin-top: 20px;
+margin-left: 24px;
+margin-bottom: 4px;
+}
+
+.card-text{
+    margin-bottom: 20px;
+    margin-left: 24px;
+}
+
+
+.btn-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap: 8px;
+
+
+
+}
+
+.button-btn{
+    background-color: #F5F4FA;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+
+    border: none;
+
+    
+}
+
+
 
 
 /* ----------------------------------------------------------------- */
