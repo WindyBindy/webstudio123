@@ -33,6 +33,7 @@ font-family: "Roboto";
 
     padding-top: 25px;
     padding-bottom: 24px;
+    
    
 }
 
@@ -214,6 +215,7 @@ letter-spacing: 0.42px;
 
 .header-box{
     display: flex;
+    align-items: center;
 }
 
 
@@ -300,20 +302,19 @@ gap: 30px;
 }
 
 
-.team-img{
-    margin-bottom: 30px;
-}
 
-.team-name{
-    margin-bottom: 10px;
-}
+
+
 
 .team-title{
 margin-bottom: 50px;
 }
 
-.team-text{
-    margin-bottom: 30px;
+
+
+.h3-p-team-list{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -321,7 +322,7 @@ margin-bottom: 50px;
     margin-top: 20px;
 }
 
-.footer-item{
+.footer-style{
     margin-bottom: 9px;
 }
 
@@ -329,17 +330,20 @@ margin-bottom: 50px;
 
 /* flex-box-portfolio */
 
-.card-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.card{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-.three-containers{
+.card-list{
     display: flex;
-    margin-bottom:30px ;
-    gap: 30px;
+   flex-wrap: wrap;
+   gap: 30px;
+
+
 }
+
+
 
 .card-item{
     background-color: #FFFFFF;
@@ -363,7 +367,7 @@ margin-bottom: 4px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 50px;
+   
     gap: 8px;
 
 
