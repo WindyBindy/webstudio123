@@ -33,7 +33,7 @@ font-family: "Roboto";
 
     padding-top: 25px;
     padding-bottom: 24px;
-    
+    border: 1px solid #EEE;
    
 }
 
@@ -339,16 +339,22 @@ margin-bottom: 50px;
     display: flex;
    flex-wrap: wrap;
    gap: 30px;
-
+   list-style: none;
 
 }
 
-
+img{
+    display: block;
+}
+.card-img{
+    width: 100%;
+}
 
 .card-item{
     background-color: #FFFFFF;
     border: 1px solid #EEE;
     width: 370px;
+    flex-basis: calc((100% - 100px) / 3);
 }
 
 .card-title{
