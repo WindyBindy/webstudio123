@@ -51,12 +51,16 @@ letter-spacing: 0.78px;
     color: var(--color-section);
 }
 
+
 .nav-link{
 color: var(--black-white-color);
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+}
+.studia-link{
+    color: #2196F3;
 }
 
 .nav-link:hover{
@@ -72,6 +76,13 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 }
+
+.header-link:hover{
+color: var(--color-section);
+}
+
+
+
 
 .hero{
     padding-top:200px;
@@ -103,6 +114,9 @@ line-height: 1.87;
 letter-spacing: 0.96px;
 
 background-color: var(--color-section);
+border: none;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .advnt{
@@ -283,7 +297,9 @@ gap: 30px;
     margin-bottom:10px ;
 }
 
-.advnt-title::before{
+
+.advent-item::before{
+   
     content: "";
     background-size: 270px;
 
@@ -297,44 +313,47 @@ display: block;
 
 }
 
-.advnt-title:nth-child(2){
+.advent-item:nth-child(2)::before{
     content: "";
-    background-size:270px;
+    background-size: 270px;
+
+display: block;
+    width: 270px;
+    height: 120px;
     background-image: url(../img/time.png);
     margin-bottom: 30px;
-    
-  
+
+
+}
+
+.advent-item:nth-child(3)::before{
+    content: "";
+    background-size: 270px;
 
 display: block;
     width: 270px;
     height: 120px;
-}
-
-.advnt-title:nth-child(3){
-    content: "";
-    background-size:270px;
     background-image: url(../img/diogram.png);
     margin-bottom: 30px;
-    
-  
+
+
+}
+
+.advent-item:nth-child(4)::before{
+    content: "";
+    background-size: 270px;
 
 display: block;
     width: 270px;
     height: 120px;
-}
-
-.advnt-title:nth-child(4){
-    content: "";
-    background-size:270px;
     background-image: url(../img/austronaft.png);
     margin-bottom: 30px;
-    
-  
 
-display: block;
-    width: 270px;
-    height: 120px;
+
 }
+
+
+
 
 
 
@@ -358,8 +377,9 @@ display: block;
 
 .team-item{
     background-color:#FFFFFF ;
-
+    border-radius: 0px 0px 4px 4px;
 }
+
 
 
 
@@ -471,6 +491,12 @@ font-weight: 500;
 line-height: 1.62;
 letter-spacing: 0.48px;
 background-color: var(--secondwhite);
+
+
+border-radius: 4px;
+box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+
 }
 
 
