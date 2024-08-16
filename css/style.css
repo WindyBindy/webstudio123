@@ -96,11 +96,13 @@ color: var(--color-section);
 
 
 .hero{
+    background: rgba(47, 48, 58, 0.40);
     padding-top:200px;
     padding-bottom: 200px;
     text-align: center;
     background: url(../img/backgraund.jpg)  lightgray  no-repeat ;
    background-size: cover;
+   
 }
 
 .hero-box{
