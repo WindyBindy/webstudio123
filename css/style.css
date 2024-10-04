@@ -541,3 +541,57 @@ justify-content: center;
     }
 }
 
+.h3-footer-join{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1,14;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+
+.ul-footers-join{
+    display: flex;
+gap: 10px;
+}
+
+.icon-footer-join{
+    width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+
+
+
+.a-footer-join{
+    background-color:rgba(255, 255, 255, 0.10) ;
+    border-radius: 50%;
+    padding: 12px 12px 12px 12px;
+
+}
+
+.li-footer-join{
+width: 44px;
+height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.li-footer-join:hover{
+background: #2196F3;
+border-radius: 60%;
+}
+
+
+.foterrconteiner{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
