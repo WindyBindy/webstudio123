@@ -79,7 +79,9 @@ letter-spacing: 0.28px;
 
 .header-link:hover{
 color: var(--color-section);
+
 }
+
 
 .header-list{
     display: flex;
@@ -416,3 +418,126 @@ border-radius: 4px;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.48px;
 }
+
+
+/* svg */
+
+
+.icon-header{
+height: 12px;
+width: 16px;
+fill:var(--imail-color);
+}
+
+
+
+.icon-header-phone{
+    height: 16px;
+    width: 10px;
+    fill:var(--imail-color);
+}
+
+.icon-header:hover{
+    height: 12px;
+width: 16px;
+    fill: var(--color-section);
+}
+
+.icon-header-phone:hover{
+    height: 16px;
+    width: 10px;
+    fill:var(--color-section);
+}
+
+.header-link:hover{
+    .icon-header{
+        fill: #2196F3;
+    }
+}
+
+
+.icon-team{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    
+}
+
+.team-icon-ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+
+
+.li-icon-team{
+padding: 12px;
+display: flex;
+align-items: center;
+}
+
+.li-icon-team:hover{
+    background:#2196F3;
+    border-radius: 50%;
+ .icon-team{
+    fill: #FFFFFF;
+ }
+}
+
+.clients{
+    background-color: var(--main-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
+
+.h2-cliens-section{
+   
+    color: var(--black-white-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+
+
+
+.ul-clients{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.icon-clients{
+width: 106px;
+height: 60px;
+fill: #AFB1B8;
+}
+
+
+.li-clients{
+width: 170px;
+height: 92px;
+border-radius: 4px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.li-clients:hover{
+    border: 1px solid #2196F3;
+    .icon-clients{
+        fill: #2196F3;
+    }
+}
+
