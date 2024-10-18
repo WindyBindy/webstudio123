@@ -38,7 +38,7 @@
         <section class="hero">
             <div class="container">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="hero-butten">Замовити послугу</button>
+            <button type="button" class="hero-butten" data-modal-open>Замовити послугу</button>
         </div>
         </section>
         <section class="advnt">
@@ -160,7 +160,7 @@
         <ul class="ul-clients">
             <li class="li-clients"><a href="#"  class="a-clients"><svg class="icon-clients"><use href="/img/symbol-defs.svg#icon-Ya--Co"></use></svg></a></li>
             <li class="li-clients"><a href="#"  class="a-clients"><svg class="icon-clients"><use href="/img/symbol-defs.svg#icon-companytaglinehere"></use></svg></a></li> 
-            <li class="li-clients"><a href="#"  class="a-clients"><svg class="icon-clients"><use href="/img/symbol-defs.svg#icon-company"></use></svg></a></li> 
+            <li class="li-clients"><a href="#"  class="a-clients"><svg class="icon-clients"><use href="/img/symbol-defs.svg#icon-icon-company"></use></svg></a></li> 
             <li class="li-clients"><a href="#"  class="a-clients"><svg class="icon-clients"><use href="/img/symbol-defs.svg#icon-foster-peters"></use></svg></a></li>
             <li class="li-clients"><a href="#"  class="a-clients"><svg class="icon-clients"><use href="/img/symbol-defs.svg#icon-brand"></use></svg></a></li> 
             <li class="li-clients"><a href="#"  class="a-clients"><svg class="icon-clients"><use href="/img/symbol-defs.svg#icon-company-tag-line"></use></svg></a></li>
@@ -175,6 +175,9 @@
 </section>
 
     </main>
+
+
+
     <footer class="footer">
         <div class="container foterrconteiner">
             <div>
@@ -190,15 +193,83 @@
             <div class="div-footer-icons">
                 <h3 class="h3-footer-join">приєднуйтесь</h3>
                 <ul class="ul-footers-join">
-                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-instagram-footer"></use></svg></a></li>
-                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-twitter-footer"></use></svg></a></li>
-                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-facebook-footer"></use></svg></a></li>
-                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-linkedin-footer"></use></svg></a></li>
+                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+                    <li class="li-footer-join"><a href="#"  class="a-footer-join"><svg class="icon-footer-join"><use href="/img/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
                 </ul>
             </div>
+
+
+              
+            <div class="footer-block">
+                <b class="footer-subscribe">Підпишіться на розсилку</b>
+                <form class="footer-form">
+                  <input type="email" placeholder="E-mail" class="footer-input"/>
+                  <button type="submit" class="footer-btn">Підписатися
+                    <svg class="footer-send">
+                      <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+
+
         </div>
     </footer>
 
+
+
+
+
+
+
+
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <form class="modal-form">
+                <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+                <label class="modal-label" for="name" >Ім'я</label>
+                <div class="modal-box">
+                    <input class="modal-input" id="name" type="text" required>
+                <svg class="modal-icon">
+                    <use href="./img/symbol-defs.svg#icon-person-modal"></use>
+                </svg></div>
+
+                <label class="modal-label" for="phone" >Телефон</label>
+                <div class="modal-box">
+                    <input class="modal-input" id="phone" type="tel"  pattern="^\+?3?8?(0\d{9})$">
+                <svg class="modal-icon">
+                    <use href="./img/symbol-defs.svg#icon-phone-modal"></use>
+                </svg></div>
+
+                <label class="modal-label" for="mail">Пошта</label>
+                <div class="modal-box">
+                    <input class="modal-input" id="mail" type="email" required>
+                <svg class="modal-icon">
+                    <use href="./img/symbol-defs.svg#icon-icon-emeil-modal"></use>
+                </svg></div>
+
+                <label class="modal-label" for="coment">Коментар</label>
+                <textarea class="modal-comentt" name="" id="coment" placeholder="Введіть текст"></textarea>
+                <label class="modal-check">
+                    <input class="modal-checkbox" type="checkbox" required>
+                    <span class="modal-span">Погоджуюся з розсилкою та приймаю </span>
+                    <a href="" class="modal-link">Умови договору</a>
+                </label>
+                <button class="modal-btn" type="submit">Відправити</button> 
+                <button class="modal-close" type="button" data-modal-close>
+                    <svg class="modal-exit">
+                        <use href="./img/symbol-defs.svg#icon-cross"></use>
+                    </svg>
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
     
 
 </body>
