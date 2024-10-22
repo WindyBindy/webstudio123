@@ -30,8 +30,9 @@ font-family: "Roboto";
 .header{
     background-color: var(--main-color);
     padding-top: 25px;
-    padding-bottom: 24px;
+     padding-bottom: 24px; 
     border: 1px solid #EEE;
+    
 }
 
 .header-box{
@@ -47,6 +48,7 @@ font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 margin-right: 93px;
+
 }
 
 .header-web{
@@ -61,8 +63,56 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 }
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+
+
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #2196F3;
+    margin-top: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 10;
+    opacity: 0;
+}
+
+
+
+.nav-item{
+   position: relative;
+}
+
+
+
+
+
+
+
 .studia-link{
     color: #2196F3;
+
+}
+
+.studia-link::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #2196F3;
+    margin-top: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 10;
+    opacity: 1;
 }
 
 .nav-link:hover{
@@ -79,6 +129,7 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+
 }
 
 .header-link:hover{
@@ -91,6 +142,7 @@ color: var(--color-section);
     display: flex;
     gap: 50px;
     margin-left: auto;
+ 
 }
 .nav-list{
     display: flex;
@@ -374,6 +426,9 @@ img{
     border: 1px solid #EEE;
     width: 370px;
     flex-basis: calc((100% - 100px) / 3);
+
+    position: relative;
+    overflow: hidden;
 }
 .card-item:hover{
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -391,7 +446,45 @@ margin-bottom: 4px;
     padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
+    
 }
+
+
+
+.lorem-card{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.54px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(33, 150, 243, 0.90);
+    height: 294px;
+    
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 25px;
+}
+
+.lorem-text{
+    width: 322px;
+    height: 168px;
+
+}
+
+.card-item:hover{
+    .lorem-card{
+opacity: 1;
+    }
+}
+
 
 
 
