@@ -62,10 +62,20 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+
+transition-property: color, background-color, border;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
 }
+
+
+
+
 
 .nav-link:hover::after{
     opacity: 1;
+
+   
 }
 
 
@@ -82,6 +92,10 @@ letter-spacing: 0.28px;
     left: 0;
     bottom: 10;
     opacity: 0;
+
+    transition-property: color, background-color, border;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 
@@ -129,6 +143,11 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+
+
+transition-property: color, background-color, border;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
 
 }
 
@@ -198,6 +217,15 @@ padding-right: 32px;
 padding-top: 10px;
 padding-bottom: 10px;
 
+transition-property: color, background-color, border;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+}
+
+.hero-butten{
+
+
+box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .advnt{
@@ -419,6 +447,14 @@ img{
 }
 .card-img{
     width: 100%;
+    
+}
+
+
+
+.img-div{
+    overflow: hidden;
+    position: relative;
 }
 
 .card-item{
@@ -429,9 +465,13 @@ img{
 
     position: relative;
     overflow: hidden;
+    
 }
 .card-item:hover{
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    .lorem-card{
+        transform: translateY(-0px);
+    }
 }
 
 .card-title{
@@ -465,12 +505,15 @@ letter-spacing: 0.54px;
     background: rgba(33, 150, 243, 0.90);
     height: 294px;
     
-    opacity: 0;
+ 
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 24px;
     padding-right: 25px;
+
+    transform: translateY(400px);
+    transition: transform 1s;
 }
 
 .lorem-text{
@@ -478,13 +521,6 @@ letter-spacing: 0.54px;
     height: 168px;
 
 }
-
-.card-item:hover{
-    .lorem-card{
-opacity: 1;
-    }
-}
-
 
 
 
@@ -519,6 +555,10 @@ line-height: 1.62;
 letter-spacing: 0.48px;
 background-color: var(--secondwhite);
 border-radius: 4px;
+
+transition-property: color, background-color, border;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
 }
 
 
@@ -625,11 +665,18 @@ letter-spacing: 0.28px;
 padding: 12px;
 display: flex;
 align-items: center;
+
+border-radius: 50%;
+transition-property: color, background-color, border;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+
+
 }
 
 .li-icon-team:hover{
     background:#2196F3;
-    border-radius: 50%;
+    
  .icon-team{
     fill: #FFFFFF;
  }
@@ -683,15 +730,24 @@ fill: #AFB1B8;
 width: 170px;
 height: 92px;
 border-radius: 4px;
-border: 1px solid #AFB1B8;
+border: 2px solid #AFB1B8;
 border-radius: 4px;
 display: flex;
 align-items: center;
 justify-content: center;
+
+transition-property: color, background-color, border;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+
+
 }
 
+ 
+
 .a-clients:hover{
-    border: 1px solid #2196F3;
+    border: 2px solid #2196F3;
+    
     .icon-clients{
         fill: #2196F3;
     }
@@ -699,7 +755,7 @@ justify-content: center;
 }
 
 .a-clients:focus{
-    border: 1px solid #2196F3;
+    border: 2px solid #2196F3;
     .icon-clients{
         fill: #2196F3;
     }
@@ -745,6 +801,11 @@ height: 50px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+
+  transition-property: color, background-color, border;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+
 }
 
 .a-footer-join:focus{
@@ -846,12 +907,21 @@ height: 50px;
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    opacity: 1;
+     opacity: 1;
+     
+     transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .is-hidden{
     pointer-events: none; 
-    opacity: 0;
+ opacity: 0; 
+
+}
+.is-hidden .modal {
+transform: translate(-2000px, -0px) rotate(500deg);
+
+
 }
 
 .modal {
@@ -861,6 +931,7 @@ height: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
