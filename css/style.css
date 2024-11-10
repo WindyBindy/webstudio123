@@ -66,6 +66,12 @@ letter-spacing: 0.28px;
 transition-property: color, background-color, border;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
+
+.nav-link{
+    transition-property: color;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
 }
 
 
@@ -149,6 +155,16 @@ transition-property: color, background-color, border;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
 
+.icon-header{
+    transition-property: fill;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+.icon-header-phone{
+    transition-property: fill;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
 }
 
 .header-link:hover{
@@ -177,7 +193,7 @@ color: var(--color-section);
     padding-top:200px;
     padding-bottom: 200px;
     text-align: center;
-    background: url(../img/backgraund.jpg)  lightgray  no-repeat ;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)),url(../img/backgraund.jpg) ;
    background-size: cover;
    
 }
@@ -740,7 +756,11 @@ transition-property: color, background-color, border;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
 
-
+.icon-clients{
+    transition-property: fill;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+}
 }
 
  
