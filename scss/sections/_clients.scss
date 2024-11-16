@@ -1,5 +1,5 @@
 .clients{
-    background-color: var(--main-color);
+    background-color: $main-color;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -9,7 +9,7 @@
 
 .h2-cliens-section{
    
-    color: var(--black-white-color);
+    color: $black-white-color;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -58,18 +58,18 @@ transition-duration: 250ms;
  
 
 .a-clients:hover{
-    border: 2px solid #2196F3;
+    border: 2px solid $color-section;
     
     .icon-clients{
-        fill: #2196F3;
+        fill: $color-section;
     }
     
 }
 
 .a-clients:focus{
-    border: 2px solid #2196F3;
+    border: 2px solid $color-section;
     .icon-clients{
-        fill: #2196F3;
+        fill: $color-section;
     }
 }
 

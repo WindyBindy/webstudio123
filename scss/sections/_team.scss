@@ -1,5 +1,5 @@
 .team{
-    background-color: var(--secondwhite);
+    background-color: $secondwhite;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -11,13 +11,13 @@
 }
 
 .team-item{
-    background-color:#FFFFFF ;
+    background-color:$main-color ;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 .team-title{
-color: var(--black-white-color);
+color: $black-white-color;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -33,7 +33,7 @@ margin-bottom: 50px;
 
 
 .team-name{
-color: var(--black-white-color);
+color: $black-white-color;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -43,7 +43,7 @@ margin-bottom: 10px;
 }
 
 .team-text{
-color: var(--imail-color);
+color: $imail-color;
 text-align: center;
 font-size: 16px;
 font-weight: 400;
@@ -81,17 +81,17 @@ transition-duration: 250ms;
 }
 
 .li-icon-team:hover{
-    background:#2196F3;
+    background:$color-section;
     
  .icon-team{
-    fill: #FFFFFF;
+    fill: $main-color;
  }
 }
 
 .li-icon-team:focus{
-    background:#2196F3;
+    background:$color-section;
     border-radius: 50%;
  .icon-team{
-    fill: #FFFFFF;
+    fill: $main-color;
  }
 }

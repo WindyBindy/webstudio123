@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 .work-title{
-color: var(--black-white-color);
+color: $black-white-color;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -42,5 +42,5 @@ margin-bottom: 50px;
    text-align: center;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: #FFFFFF;
+   color: $main-color;
  }

@@ -16,16 +16,6 @@ h1, h2, h3, h4, p {
   margin: 0;
 }
 
-:root {
-  --main-color: #FFFFFF;
-  --color-section:#2196F3;
-  --black-white-color:#212121;
-  --imail-color:#757575;
-  --first-section-backgraund:#2F303A;
-  --secondwhite:#F5F4FA;
-  --logo-color:#000;
-}
-
 .container {
   width: 1200px;
   margin-left: auto;
@@ -40,7 +30,7 @@ body {
 }
 
 .header {
-  background-color: var(--main-color);
+  background-color: #FFFFFF;
   padding-top: 25px;
   padding-bottom: 24px;
   border: 1px solid #EEE;
@@ -52,7 +42,7 @@ body {
 }
 
 .header-logo {
-  color: var(--logo-color);
+  color: #000;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -62,11 +52,11 @@ body {
 }
 
 .header-web {
-  color: var(--color-section);
+  color: #2196F3;
 }
 
 .nav-link {
-  color: var(--black-white-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -125,15 +115,15 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--color-section);
+  color: #2196F3;
 }
 
 .nav-link:focus {
-  color: var(--color-section);
+  color: #2196F3;
 }
 
 .header-link {
-  color: var(--imail-color);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -154,7 +144,7 @@ body {
 }
 
 .header-link:hover {
-  color: var(--color-section);
+  color: #2196F3;
 }
 
 .header-list {
@@ -171,25 +161,25 @@ body {
 .icon-header {
   height: 12px;
   width: 16px;
-  fill: var(--imail-color);
+  fill: #757575;
 }
 
 .icon-header-phone {
   height: 16px;
   width: 10px;
-  fill: var(--imail-color);
+  fill: #757575;
 }
 
 .icon-header:hover {
   height: 12px;
   width: 16px;
-  fill: var(--color-section);
+  fill: #2196F3;
 }
 
 .icon-header-phone:hover {
   height: 16px;
   width: 10px;
-  fill: var(--color-section);
+  fill: #2196F3;
 }
 
 .header-link:hover .icon-header {
@@ -230,7 +220,7 @@ body {
 }
 
 .hero-title {
-  color: var(--main-color);
+  color: #FFFFFF;
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
@@ -243,13 +233,13 @@ body {
 }
 
 .hero-butten {
-  color: var(--main-color);
+  color: #FFFFFF;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
-  background-color: var(--color-section);
+  background-color: #2196F3;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -326,7 +316,7 @@ body {
 }
 
 .work-title {
-  color: var(--black-white-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -367,7 +357,7 @@ body {
 }
 
 .team {
-  background-color: var(--secondwhite);
+  background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -384,7 +374,7 @@ body {
 }
 
 .team-title {
-  color: var(--black-white-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -399,7 +389,7 @@ body {
 }
 
 .team-name {
-  color: var(--black-white-color);
+  color: #212121;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -409,7 +399,7 @@ body {
 }
 
 .team-text {
-  color: var(--imail-color);
+  color: #757575;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -456,13 +446,13 @@ body {
 }
 
 .clients {
-  background-color: var(--main-color);
+  background-color: #FFFFFF;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .h2-cliens-section {
-  color: var(--black-white-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -531,11 +521,11 @@ body {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--first-section-backgraund);
+  background-color: #2F303A;
 }
 
 .logo-footer {
-  color: var(--main-color);
+  color: #FFFFFF;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -544,11 +534,11 @@ body {
 }
 
 .footer-web {
-  color: var(--color-section);
+  color: #2196F3;
 }
 
 .footer-map {
-  color: var(--main-color);
+  color: #FFFFFF;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -557,7 +547,7 @@ body {
 }
 
 .footer-link {
-  color: var(--imail-color);
+  color: #757575;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -613,7 +603,7 @@ body {
 }
 
 .footer-subscribe {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -646,8 +636,8 @@ body {
 }
 
 .footer-btn {
-  color: #fff;
-  background-color: #2196f3;
+  color: #FFFFFF;
+  background-color: #2196F3;
   padding: 10px 28px;
   text-align: center;
   font-size: 16px;
@@ -665,7 +655,7 @@ body {
 .footer-send {
   width: 24px;
   height: 24px;
-  fill: #fff;
+  fill: #FFFFFF;
 }
 
 .foterrconteiner {
@@ -727,7 +717,7 @@ img {
 }
 
 .lorem-card {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -771,14 +761,14 @@ img {
 
 /* ----------------------------------------------------------------- */
 .button-btn {
-  color: var(--black-white-color);
+  color: #212121;
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
-  background-color: var(--secondwhite);
+  background-color: #F5F4FA;
   border-radius: 4px;
   transition-property: color, background-color, border;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -786,13 +776,13 @@ img {
 }
 
 .button-btn:hover {
-  background-color: var(--color-section);
-  color: var(--main-color);
+  background-color: #2196F3;
+  color: #FFFFFF;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .card-title {
-  color: var(--black-white-color);
+  color: #212121;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -801,7 +791,7 @@ img {
 }
 
 .card-text {
-  color: var(--imail-color);
+  color: #757575;
   font-size: 16px;
   font-style: normal;
   line-height: 1.87; /* 187.5% */
@@ -832,7 +822,7 @@ img {
 }
 
 .modal {
-  background-color: white;
+  background-color: #FFFFFF;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -948,7 +938,7 @@ img {
 }
 
 .modal-btn {
-  color: #FFF;
+  color: #FFFFFF;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -994,5 +984,5 @@ img {
 .modal-exit {
   width: 11px;
   height: 11px;
-  fill: black;
+  fill: #000;
 }/*# sourceMappingURL=main.css.map */

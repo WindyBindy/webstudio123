@@ -1,5 +1,5 @@
 .header{
-    background-color: var(--main-color);
+    background-color: $main-color;
     padding-top: 25px;
      padding-bottom: 24px; 
     border: 1px solid #EEE;
@@ -12,7 +12,7 @@
 }
 
 .header-logo{
-color: var(--logo-color);
+color: $logo-color;
 font-family: "Raleway";
 font-size: 26px;
 font-weight: 700;
@@ -23,12 +23,12 @@ margin-right: 93px;
 }
 
 .header-web{
-    color: var(--color-section);
+    color: $color-section;
 }
 
 
 .nav-link{
-color: var(--black-white-color);
+color: $black-white-color;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
@@ -63,7 +63,7 @@ transition-duration: 250ms;
     width: 100%;
     height: 5px;
     border-radius: 2px;
-    background-color: #2196F3;
+    background-color: $color-section;
     margin-top: 28px;
     position: absolute;
     left: 0;
@@ -81,7 +81,7 @@ transition-duration: 250ms;
    position: relative;
 }
 .studia-link{
-    color: #2196F3;
+    color: $color-section;
 
 }
 
@@ -91,7 +91,7 @@ transition-duration: 250ms;
     width: 100%;
     height: 5px;
     border-radius: 2px;
-    background-color: #2196F3;
+    background-color: $color-section;
     margin-top: 28px;
     position: absolute;
     left: 0;
@@ -100,15 +100,15 @@ transition-duration: 250ms;
 }
 
 .nav-link:hover{
-color: var(--color-section);
+color: $color-section;
 }
 
 .nav-link:focus{
-    color: var(--color-section);
+    color: $color-section;
     }
 
 .header-link{
-color: var(--imail-color);
+color: $imail-color;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
@@ -132,7 +132,7 @@ transition-duration: 250ms;
 }
 
 .header-link:hover{
-color: var(--color-section);
+color: $color-section;
 
 }
 
@@ -150,7 +150,7 @@ color: var(--color-section);
 .icon-header{
     height: 12px;
     width: 16px;
-    fill:var(--imail-color);
+    fill:$imail-color;
     }
     
     
@@ -158,33 +158,33 @@ color: var(--color-section);
     .icon-header-phone{
         height: 16px;
         width: 10px;
-        fill:var(--imail-color);
+        fill:$imail-color;
     }
     
     .icon-header:hover{
         height: 12px;
     width: 16px;
-        fill: var(--color-section);
+        fill: $color-section;
     }
     
     .icon-header-phone:hover{
         height: 16px;
         width: 10px;
-        fill:var(--color-section);
+        fill:$color-section;
     }
     
     .header-link:hover{
         .icon-header{
-            fill: #2196F3;
+            fill: $color-section;
         }
         .icon-header-phone{
-            fill: #2196F3;
+            fill: $color-section;
         }
     
     }
     
     .header-link:focus{
-        color: #2196F3;
+        color: $color-section;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -193,10 +193,10 @@ color: var(--color-section);
     letter-spacing: 0.28px;
     
         .icon-header{
-            fill: #2196F3;
+            fill: $color-section;
         }
         .icon-header-phone{
-            fill: #2196F3;
+            fill: $color-section;
         }
     
     }

@@ -26,7 +26,7 @@ transform: translate(-2000px, -0px) rotate(500deg);
 }
 
 .modal {
-    background-color: white;
+    background-color: $main-color;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,7 +36,7 @@ transform: translate(-2000px, -0px) rotate(500deg);
 }
 
 .modal-title {
-    color: #212121;
+    color: $black-white-color;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -46,7 +46,7 @@ transform: translate(-2000px, -0px) rotate(500deg);
 }
 
 .modal-label {
-    color: #757575;
+    color: $imail-color;
     font-size: 12px;
     font-weight: 400;
     line-height: normal;
@@ -73,17 +73,17 @@ transform: translate(-2000px, -0px) rotate(500deg);
 .modal-input:hover,
 .modal-input:focus{
     border: none;
-    outline: 1px solid #2196F3;
+    outline: 1px solid $color-section;
 
 }
 .modal-input:hover + .modal-icon,
 .modal-input:focus + .modal-icon{
-    fill: #2196F3;
+    fill: $color-section;
 }
 
 
 .modal-icon{
-    fill: #212121;
+    fill: $black-white-color;
     width: 18px;
 height: 18px;
 position: absolute;
@@ -115,11 +115,11 @@ left: 10px;
 .modal-comentt:hover,
 .modal-comentt:focus{
   border: transparent;
-    outline: 1px solid #2196F3;
+    outline: 1px solid $color-section;
 }
 
 .modal-span {
-    color: #757575;
+    color: $imail-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -129,7 +129,7 @@ left: 10px;
 }
 
 .modal-link {
-    color: #2196F3;
+    color: $color-section;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -149,14 +149,14 @@ left: 10px;
 }
 
 .modal-btn {
-    color: #FFF;
+    color: $main-color;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.96px;
     border-radius: 4px;
-    background: #2196F3;
+    background: $color-section;
     padding: 10px 52px;
     border: none;
     margin: 30px 124px 0px 124px;
@@ -188,7 +188,7 @@ left: 10px;
 .modal-close:focus{
 outline: 0px solid transparent;
 .modal-exit{
-    fill: #2196F3;
+    fill: $color-section;
 }
 }
 
@@ -197,6 +197,6 @@ outline: 0px solid transparent;
 .modal-exit{
     width: 11px;
     height: 11px;
-    fill: black;
+    fill: $logo-color;
 
 }
