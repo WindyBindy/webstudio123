@@ -4,200 +4,246 @@
      padding-bottom: 24px; 
     border: 1px solid #EEE;
     
-}
-
-.header-box{
-    display: flex;
-    align-items: center;
-}
-
-.header-logo{
-color: $logo-color;
-font-family: "Raleway";
-font-size: 26px;
-font-weight: 700;
-line-height: 1.38;
-letter-spacing: 0.78px;
-margin-right: 93px;
-
-}
-
-.header-web{
-    color: $color-section;
-}
-
-
-.nav-link{
-color: $black-white-color;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
-
-transition-property: color, background-color, border;
-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
-
-.nav-link{
-    transition-property: color;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-}
-}
-
-
-
-
-
-.nav-link:hover::after{
-    opacity: 1;
-
-   
-}
-
-
-
-.nav-link::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 5px;
-    border-radius: 2px;
-    background-color: $color-section;
-    margin-top: 28px;
-    position: absolute;
-    left: 0;
-    bottom: 10;
-    opacity: 0;
-
-    transition-property: color, background-color, border;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-}
-
-
-
-.nav-item{
-   position: relative;
-}
-.studia-link{
-    color: $color-section;
-
-}
-
-.studia-link::after{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 5px;
-    border-radius: 2px;
-    background-color: $color-section;
-    margin-top: 28px;
-    position: absolute;
-    left: 0;
-    bottom: 10;
-    opacity: 1;
-}
-
-.nav-link:hover{
-color: $color-section;
-}
-
-.nav-link:focus{
-    color: $color-section;
+    &__box{
+        display: flex;
+        align-items: center;
     }
 
-.header-link{
-color: $imail-color;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
+    &__logo{
+        color: $logo-color;
+        font-family: "Raleway";
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.38;
+        letter-spacing: 0.78px;
+        margin-right: 93px;
 
-
-transition-property: color, background-color, border;
-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
-
-.icon-header{
-    transition-property: fill;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-}
-.icon-header-phone{
-    transition-property: fill;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-}
-}
-
-.header-link:hover{
-color: $color-section;
-
-}
-
-
-.header-list{
-    display: flex;
-    gap: 50px;
-    margin-left: auto;
- 
-}
-.nav-list{
-    display: flex;
-    gap: 50px;
-}
-.icon-header{
-    height: 12px;
-    width: 16px;
-    fill:$imail-color;
-    }
-    
-    
-    
-    .icon-header-phone{
-        height: 16px;
-        width: 10px;
-        fill:$imail-color;
-    }
-    
-    .icon-header:hover{
-        height: 12px;
-    width: 16px;
-        fill: $color-section;
-    }
-    
-    .icon-header-phone:hover{
-        height: 16px;
-        width: 10px;
-        fill:$color-section;
-    }
-    
-    .header-link:hover{
-        .icon-header{
-            fill: $color-section;
+        &__web{
+            color: $color-section;
         }
-        .icon-header-phone{
-            fill: $color-section;
         }
+
+
+        
+
+        &__link{
+            color: $imail-color;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.14;
+            letter-spacing: 0.28px;
+            
+            
+            transition-property: color, background-color, border;
+            transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
+            
+            .icon__header{
+                transition-property: fill;
+                transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 250ms;
+            }
+            .icon__header__phone{
+                transition-property: fill;
+                transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 250ms;
+            }
+
+            &:hover{
+                color: $color-section;
+                
+                }
     
-    }
-    
-    .header-link:focus{
+
+
+
+                &:hover{
+                    .header__icon{
+                        fill: $color-section;
+                    }
+                    .header__icon__phone{
+                        fill: $color-section;
+                    }
+                
+                }
+
+                &:focus{
+                    color: $color-section;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.28px;
+                
+                    .icon__header{
+                        fill: $color-section;
+                    }
+                    .icon__header__phone{
+                        fill: $color-section;
+                    }
+                
+                }
+            }
+
+
+
+            &__list{
+                display: flex;
+                gap: 50px;
+                margin-left: auto;
+             
+            }
+            
+           
+
+            // ksjfkjf
+
+
+            &__icon{
+                height: 12px;
+                width: 16px;
+                fill:$imail-color;
+
+
+                &:hover{
+                    height: 12px;
+                width: 16px;
+                    fill: $color-section;
+                }
+                }
+                
+                
+                
+                &__icon__phone{
+                    height: 16px;
+                    width: 10px;
+                    fill:$imail-color;
+
+
+                    &:hover{
+                        height: 16px;
+                        width: 10px;
+                        fill:$color-section;
+                    }
+                }
+                
+                
+                
+                
+                
+                
+}
+
+
+
+
+.nav{
+    &__link{
+        color: $black-white-color;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.28px;
+        
+        transition-property: color, background-color, border;
+        transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 250ms;
+        
+        
+            transition-property: color;
+            transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
+
+            &:hover,&:focus{
+                color: $color-section;
+                }
+            
+        
+
+        &::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 5px;
+            border-radius: 2px;
+            background-color: $color-section;
+            margin-top: 28px;
+            position: absolute;
+            left: 0;
+            bottom: 10;
+            opacity: 0;
+        
+            transition-property: color, background-color, border;
+            transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
+        }
+
+        &:hover::after{
+            opacity: 1;
+        }
+        }
+
+        &__item{
+            position: relative;
+         }
+
+
+
+
+         &__list{
+            display: flex;
+            gap: 50px;
+        }
+
+        
+
+         
+            
+
+
+
+}
+
+
+
+
+
+.studia{
+    &__link{
         color: $color-section;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    
-        .icon-header{
-            fill: $color-section;
+        &::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 5px;
+            border-radius: 2px;
+            background-color: $color-section;
+            margin-top: 28px;
+            position: absolute;
+            left: 0;
+            bottom: 10;
+            opacity: 1;
         }
-        .icon-header-phone{
-            fill: $color-section;
-        }
-    
     }
     
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ 

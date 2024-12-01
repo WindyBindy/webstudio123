@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.card-list{
+.card__list{
    display: flex;
    flex-wrap: wrap;
    gap: 30px;
@@ -13,19 +13,19 @@
 img{
     display: block;
 }
-.card-img{
+.card__img{
     width: 100%;
     
 }
 
 
 
-.img-div{
+.img__div{
     overflow: hidden;
     position: relative;
 }
 
-.card-item{
+.card__item{
     background-color: $main-color;
     border: 1px solid #EEE;
     width: 370px;
@@ -35,14 +35,14 @@ img{
     overflow: hidden;
     
 }
-.card-item:hover{
+.card__item:hover{
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-    .lorem-card{
+    .lorem__card{
         transform: translateY(-0px);
     }
 }
 
-.card-title{
+.card__title{
 margin-bottom: 4px;
 }
 
@@ -59,7 +59,7 @@ margin-bottom: 4px;
 
 
 
-.lorem-card{
+.lorem__card{
     color: $main-color;
 font-family: Roboto;
 font-size: 18px;
@@ -84,7 +84,7 @@ letter-spacing: 0.54px;
     transition: transform 1s;
 }
 
-.lorem-text{
+.lorem__text{
     width: 322px;
     height: 168px;
 
@@ -92,14 +92,14 @@ letter-spacing: 0.54px;
 
 
 
-.btn-list{
+.btn__list{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
     gap: 8px;
 }
 
-.button-btn{
+.button__btn{
     background-color: $secondwhite;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -113,7 +113,7 @@ letter-spacing: 0.54px;
 
 
 
-.button-btn{
+.button__btn{
 color: $black-white-color;
 text-align: center;
 font-size: 16px;
@@ -130,13 +130,13 @@ transition-duration: 250ms;
 }
 
 
-.button-btn:hover{
+.button__btn:hover{
     background-color: $color-section;
     color: $main-color;
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
-.card-title{
+.card__title{
     color: $black-white-color;
     font-size: 18px;
     font-style: normal;
@@ -145,7 +145,7 @@ transition-duration: 250ms;
     letter-spacing: 0.70px;
 }
 
-.card-text{
+.card__text{
     color: $imail-color;
     font-size: 16px;
     font-style: normal;
