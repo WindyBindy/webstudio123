@@ -591,27 +591,19 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .card__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   list-style: none;
 }
-
-img {
-  display: block;
-}
-
 .card__img {
   width: 100%;
 }
-
-.img__div {
+.card__img__div {
   overflow: hidden;
   position: relative;
 }
-
 .card__item {
   background-color: #FFFFFF;
   border: 1px solid #EEE;
@@ -620,26 +612,22 @@ img {
   position: relative;
   overflow: hidden;
 }
-
 .card__item:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
-.card__item:hover .lorem__card {
+.card__item:hover .card__lorem {
   transform: translateY(0px);
 }
-
 .card__title {
   margin-bottom: 4px;
 }
-
-.card-text-title-div {
+.card__text__title__div {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-.lorem__card {
+.card__lorem {
   color: #FFFFFF;
   font-family: Roboto;
   font-size: 18px;
@@ -660,30 +648,35 @@ img {
   transform: translateY(400px);
   transition: transform 1s;
 }
-
-.lorem__text {
-  width: 322px;
-  height: 168px;
+.card__title {
+  color: #212121;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.7px;
+}
+.card__text {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.87; /* 187.5% */
+  letter-spacing: 0.48px;
 }
 
-.btn__list {
+.portfolio__btn__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   gap: 8px;
 }
-
-.button__btn {
+.portfolio__button {
   background-color: #F5F4FA;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
   border: none;
-}
-
-/* ----------------------------------------------------------------- */
-.button__btn {
   color: #212121;
   text-align: center;
   font-size: 16px;
@@ -697,28 +690,10 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-
-.button__btn:hover {
+.portfolio__button:hover {
   background-color: #2196F3;
   color: #FFFFFF;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-}
-
-.card__title {
-  color: #212121;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 0.7px;
-}
-
-.card__text {
-  color: #757575;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.87; /* 187.5% */
-  letter-spacing: 0.48px;
 }
 
 .backdrop {
@@ -753,7 +728,6 @@ img {
   padding: 40px;
   transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal__title {
   color: #212121;
   text-align: center;
@@ -763,7 +737,6 @@ img {
   letter-spacing: 0.6px;
   margin-bottom: 12px;
 }
-
 .modal__label {
   color: #757575;
   font-size: 12px;
@@ -771,11 +744,9 @@ img {
   line-height: normal;
   letter-spacing: 0.12px;
 }
-
 .modal__box {
   position: relative;
 }
-
 .modal__input {
   width: 448px;
   height: 40px;
@@ -786,18 +757,13 @@ img {
   display: block;
   padding-left: 40px;
 }
-
-.modal__input:hover,
-.modal__input:focus {
+.modal__input:hover, .modal__input:focus {
   border: none;
   outline: 1px solid #2196F3;
 }
-
-.modal__input:hover + .modal__icon,
-.modal__input:focus + .modal__icon {
+.modal__input:hover + .modal__icon, .modal__input:focus + .modal__icon {
   fill: #2196F3;
 }
-
 .modal__icon {
   fill: #212121;
   width: 18px;
@@ -806,7 +772,6 @@ img {
   top: 11px;
   left: 10px;
 }
-
 .modal__comentt {
   width: 448px;
   height: 120px;
@@ -823,13 +788,10 @@ img {
   margin: 4px 0 25px 0;
   display: block;
 }
-
-.modal__comentt:hover,
-.modal__comentt:focus {
+.modal__comentt:hover, .modal__comentt:focus {
   border: transparent;
   outline: 1px solid #2196F3;
 }
-
 .modal__span {
   color: #757575;
   font-size: 14px;
@@ -839,7 +801,6 @@ img {
   margin-left: 8px;
   margin-right: 4px;
 }
-
 .modal__link {
   color: #2196F3;
   font-size: 14px;
@@ -848,18 +809,15 @@ img {
   letter-spacing: 0.42px;
   text-decoration-line: underline;
 }
-
 .modal__check {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .modal__checkbox {
   width: 16px;
   height: 15px;
 }
-
 .modal__btn {
   color: #FFFFFF;
   text-align: center;
@@ -873,14 +831,11 @@ img {
   border: none;
   margin: 30px 124px 0px 124px;
 }
-
-.modal__btn:hover,
-.modal__btn:focus {
+.modal__btn:hover, .modal__btn:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   outline: 0px solid transparent;
 }
-
 .modal__close {
   width: 30px;
   height: 30px;
@@ -894,16 +849,12 @@ img {
   top: 8px;
   right: 8px;
 }
-
-.modal__close:hover,
-.modal__close:focus {
+.modal__close:hover, .modal__close:focus {
   outline: 0px solid transparent;
 }
-.modal__close:hover .modal__exit,
-.modal__close:focus .modal__exit {
+.modal__close:hover .modal__exit, .modal__close:focus .modal__exit {
   fill: #2196F3;
 }
-
 .modal__exit {
   width: 11px;
   height: 11px;

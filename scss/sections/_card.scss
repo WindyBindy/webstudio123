@@ -1,154 +1,171 @@
 .card{
     padding-top: 94px;
     padding-bottom: 94px;
-}
 
-.card__list{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 30px;
-   list-style: none;
-}
 
-img{
-    display: block;
-}
-.card__img{
-    width: 100%;
+   &__list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        list-style: none;
+     }
+     
+     
+    &__img{
+         width: 100%;
+         
+     }
+     
+
+     &__img__div{
+        overflow: hidden;
+        position: relative;
+    }
     
-}
-
-
-
-.img__div{
-    overflow: hidden;
-    position: relative;
-}
-
-.card__item{
-    background-color: $main-color;
-    border: 1px solid #EEE;
-    width: 370px;
-    flex-basis: calc((100% - 100px) / 3);
-
-    position: relative;
-    overflow: hidden;
+    &__item{
+        background-color: $main-color;
+        border: 1px solid #EEE;
+        width: 370px;
+        flex-basis: calc((100% - 100px) / 3);
     
+        position: relative;
+        overflow: hidden;
+        &:hover{
+            box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+            .card__lorem{
+                transform: translateY(-0px);
+            }
+        }
+    }
+
+    &__title{
+        margin-bottom: 4px;
+        }
+
+      
+
+        &__text__title__div{
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+        }
+        
+        
+        &__lorem{
+            color: $main-color;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.54px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(33, 150, 243, 0.90);
+            height: 294px;
+            
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 24px;
+            padding-right: 25px;
+        
+            transform: translateY(400px);
+            transition: transform 1s;
+        }
+         
+        &__title{
+            color: $black-white-color;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 2;
+            letter-spacing: 0.70px;
+        }
+        
+       &__text{
+            color: $imail-color;
+            font-size: 16px;
+            font-style: normal;
+            line-height: 1.87; /* 187.5% */
+            letter-spacing: 0.48px;
+        }
+      
 }
-.card__item:hover{
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-    .lorem__card{
-        transform: translateY(-0px);
+
+
+
+
+.portfolio{
+    &__btn__list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        gap: 8px;
+    }
+
+    &__button{
+        background-color: $secondwhite;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
+        border: none;
+
+        
+            color: $black-white-color;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.62;
+            letter-spacing: 0.48px;
+            background-color: $secondwhite;
+            border-radius: 4px;
+            
+            transition-property: color, background-color, border;
+            transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 250ms;
+            
+            
+            &:hover{
+                background-color: $color-section;
+                color: $main-color;
+                box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+            }
+            
     }
 }
 
-.card__title{
-margin-bottom: 4px;
-}
 
 
 
 
-.card-text-title-div{
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-}
-
-
-
-.lorem__card{
-    color: $main-color;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0.54px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(33, 150, 243, 0.90);
-    height: 294px;
-    
- 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 25px;
-
-    transform: translateY(400px);
-    transition: transform 1s;
-}
-
-.lorem__text{
-    width: 322px;
-    height: 168px;
-
-}
-
-
-
-.btn__list{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap: 8px;
-}
-
-.button__btn{
-    background-color: $secondwhite;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 22px;
-    padding-right: 22px;
-    border: none;
-}
-
-/* ----------------------------------------------------------------- */
 
 
 
 
-.button__btn{
-color: $black-white-color;
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.62;
-letter-spacing: 0.48px;
-background-color: $secondwhite;
-border-radius: 4px;
-
-transition-property: color, background-color, border;
-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
-}
 
 
-.button__btn:hover{
-    background-color: $color-section;
-    color: $main-color;
-    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-}
 
-.card__title{
-    color: $black-white-color;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2;
-    letter-spacing: 0.70px;
-}
 
-.card__text{
-    color: $imail-color;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.87; /* 187.5% */
-    letter-spacing: 0.48px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
