@@ -1,9 +1,18 @@
 .header{
+
+    
     background-color: $main-color;
     padding-top: 25px;
      padding-bottom: 24px; 
     border: 1px solid #EEE;
     
+    @media screen and (min-width: 768px) {
+        padding: 21px 0;
+      }
+    
+      @media screen and (min-width: 1200px) {
+        padding: 25px 0;
+      }
     &__box{
         display: flex;
         align-items: center;
@@ -21,6 +30,15 @@
         &__web{
             color: $color-section;
         }
+        @media screen and (min-width: 768px) {
+            margin-right: 88px;
+          }
+      
+          @media screen and (min-width: 1200px) {
+            font-size: 26px;
+            letter-spacing: 0.78px;
+            margin-right: 93px;
+          }
         }
 
 
@@ -82,7 +100,10 @@
                     .icon__header__phone{
                         fill: $color-section;
                     }
-                
+                    @media screen and (min-width: 1200px) {
+                        font-size: 14px;
+                        letter-spacing: 0.28px;
+                      }
                 }
             }
 
@@ -93,6 +114,14 @@
                 gap: 50px;
                 margin-left: auto;
              
+                @media screen and (min-width: 768px) {
+                    display: flex;
+                  }
+              
+                  @media screen and (min-width: 1200px){
+                    gap: 30px;
+                    flex-direction: row;
+                  }
             }
             
            
