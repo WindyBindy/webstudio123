@@ -4,15 +4,37 @@
 
 
    &__list{
+        // display: flex;
+        // flex-direction: column;
+        // gap: 50px;
+        // list-style: none;
+        // justify-content: center;
+        // padding-left: 50px;
+        // @media screen and (min-width: 768px) {
+            
+        //     flex-direction: row;
+        //     flex-wrap: wrap;
+      
+        //   }
+
+        justify-content: center;
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        list-style: none;
+    
+        @media screen and (min-width: 768px) {
+            justify-content: space-between;
+           }
+    
+           @media screen and (min-width: 1200px) {
+            justify-content: flex-start;
+           }
+        
      }
      
      
     &__img{
-         width: 100%;
+         width: 400px;
          
      }
      
@@ -23,10 +45,11 @@
     }
     
     &__item{
+        
         background-color: $main-color;
         border: 1px solid #EEE;
-        width: 370px;
-        flex-basis: calc((100% - 100px) / 3);
+        width: 100%;
+        flex-basis: calc((100% - 100px) / 1);
     
         position: relative;
         overflow: hidden;
@@ -36,6 +59,16 @@
                 transform: translateY(-0px);
             }
         }
+
+        @media screen and (min-width: 768px) {
+      width: calc((100% - 30px) / 2);
+      max-width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 60px) / 3);
+      max-width: 370px;
+    }
     }
 
     &__title{
@@ -56,7 +89,7 @@
         &__lorem{
             color: $main-color;
         font-family: Roboto;
-        font-size: 18px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
@@ -71,11 +104,15 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-left: 24px;
-            padding-right: 25px;
+            padding: 80px 24px;
         
             transform: translateY(400px);
             transition: transform 1s;
+
+            @media screen and (min-width: 768px){
+                font-size: 18px; 
+                padding: 63px 24px;
+             }
         }
          
         &__title{
@@ -103,9 +140,17 @@
 .portfolio{
     &__btn__list{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         margin-bottom: 50px;
         gap: 8px;
+        row-gap: 15px;
+        flex-wrap: wrap;
+
+        @media screen and (min-width: 768px){
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
     }
 
     &__button{

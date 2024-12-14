@@ -1,6 +1,12 @@
 .work{
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 
     &__title{
       color: $black-white-color;

@@ -1,9 +1,14 @@
 .advnt{
-    padding-top: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 0;
+    }
 
     &__list{
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         gap: 30px;
     }
 
@@ -16,6 +21,10 @@
         letter-spacing: 0.42px;
         text-transform: uppercase;
         margin-bottom:10px ;
+        text-align: center;
+        @media screen and (min-width: 768px) {
+            text-align: start;
+          }
         }
         
         &__text{
@@ -25,6 +34,13 @@
         font-weight: 400;
         line-height: 1.71; 
         letter-spacing: 0.42px;
+        width: 100%;
+        @media screen and (min-width: 768px) {
+            width: 354px;
+          }
+          @media screen and (min-width: 1200px) {
+            width: 270px;
+          }
         }
 
         &__item{
@@ -32,13 +48,18 @@
             content: "";
             background-repeat: no-repeat;
             display: block;
-            width: 270px;
+            width: 100%;
             height: 120px;
             background-image: url(../img/antenna.png) ;
             margin-bottom: 30px;
             background-color: $secondwhite;
             background-position: center;
-
+            @media screen and (min-width: 768px) {
+                width: 354px;
+              }
+              @media screen and (min-width: 1200px) {
+                width: 270px;
+              }
             
         }
         &:nth-child(2)::before{
