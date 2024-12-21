@@ -1,216 +1,158 @@
-.card{
-    padding-top: 94px;
-    padding-bottom: 94px;
 
-
-   &__list{
-        // display: flex;
-        // flex-direction: column;
-        // gap: 50px;
-        // list-style: none;
-        // justify-content: center;
-        // padding-left: 50px;
-        // @media screen and (min-width: 768px) {
-            
-        //     flex-direction: row;
-        //     flex-wrap: wrap;
-      
-        //   }
-
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
+ .card {
+     padding-top: 94px;
+     padding-bottom: 94px;
+  
+  
+    
+   &__list {
+    display: flex;
+        flex-direction: column;
         gap: 30px;
-    
-        @media screen and (min-width: 768px) {
-            justify-content: space-between;
-           }
-    
-           @media screen and (min-width: 1200px) {
-            justify-content: flex-start;
-           }
-        
-     }
-     
-     
-    &__img{
-         width: 400px;
-         
-     }
-     
+         margin-top: 50px;
 
-     &__img__div{
-        overflow: hidden;
-        position: relative;
-    }
-    
-    &__item{
-        
-        background-color: $main-color;
-        border: 1px solid #EEE;
-        width: 370px;
-        flex-basis: calc((100% - 100px) / 1);
-    
-        position: relative;
-        overflow: hidden;
-        &:hover{
-            box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-            .card__lorem{
-                transform: translateY(-0px);
-            }
-        }
+         @media screen and (min-width: 768px) {
+             flex-wrap: wrap;
+             flex-direction: row;
+         }
 
-        @media screen and (min-width: 768px) {
-      width: calc((100% - 30px) / 2);
-      max-width: 354px;
+         @media screen and (min-width: 1200px){
+             flex-wrap: wrap;
+             flex-direction: row;
+         }
+   }
+  
+   &__item {
+    //  flex-basis: calc((100% - 60px) / 3);
+    //  border: 1px solid #eeeeee;
+    //  transition-property: box-shadow;
+    //  transition-duration: 250ms;
+    //  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    flex-basis: calc(100%);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
     }
 
     @media screen and (min-width: 1200px) {
-      width: calc((100% - 60px) / 3);
-      max-width: 370px;
-    }
+        flex-basis: calc((100% - 60px) / 3);
     }
 
-    &__title{
-        margin-bottom: 4px;
-        }
 
-      
-
-        &__text__title__div{
-            padding-left: 24px;
-            padding-right: 24px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            
-        }
+     &:hover {
+     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
+       0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+   }
+  
+   &:hover 
+   .card__desk {
+     opacity: 1;
+     
+     transform: translateY(0);
+   }
+   }
+  
+   &__box {
+     position: relative;
+     overflow: hidden;
+   }
+  
+   &__img {
+   width: 100%;
+   }
+  
+   &__desk {
+    position: absolute;
+        opacity: 0;
+     width: 100%;
+     height: 100%;
+     background-color: $color-section;
+     padding: 63px 24px;
+     color: $main-color;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.55;
+     letter-spacing: 0.54px;
+     opacity: 0;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transform: translateY(100%);
+     transition-property: opacity, transform;
+        transition-duration: 250ms;
         
-        
-        &__lorem{
-            color: $main-color;
-        font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: 0.54px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: rgba(33, 150, 243, 0.90);
-            height: 294px;
-            
-         
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 80px 24px;
-        
-            transform: translateY(400px);
-            transition: transform 1s;
+     
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   }
+  
+   &__wrap {
+     padding: 20px 24px;
+   }
+  
+   &__title {
+     color:  $black-white-color;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 2;
+     letter-spacing: 1.08px;
+     margin-bottom: 4px;
+   }
+  
+   &__text {
+     color: $imail-color ;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.87;
+     letter-spacing: 0.48px;
+   }
+  
+   }
+  
+  
+  
+   .button__list {
+    display: flex;
+    gap: 8px;
+    row-gap: 15px;
+    flex-wrap: wrap;
 
-            @media screen and (min-width: 768px){
-                font-size: 18px; 
-                padding: 63px 24px;
-             }
-        }
-         
-        &__title{
-            color: $black-white-color;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 2;
-            letter-spacing: 0.70px;
-        }
-        
-       &__text{
-            color: $imail-color;
-            font-size: 16px;
-            font-style: normal;
-            line-height: 1.87; /* 187.5% */
-            letter-spacing: 0.48px;
-        }
-      
-}
-
-
-
-
-.portfolio{
-    &__btn__list{
-        display: flex;
-        justify-content: flex-start;
-        margin-bottom: 50px;
-        gap: 8px;
-        row-gap: 15px;
-        flex-wrap: wrap;
-
-        @media screen and (min-width: 768px){
-            flex-wrap: nowrap;
-            justify-content: center;
-        }
-
+    @media screen and (min-width: 480px) {
+        max-width: 400px;
     }
 
-    &__button{
-        background-color: $secondwhite;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 22px;
-        padding-right: 22px;
-        border: none;
-
-        
-            color: $black-white-color;
-            text-align: center;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 1.62;
-            letter-spacing: 0.48px;
-            background-color: $secondwhite;
-            border-radius: 4px;
-            
-            transition-property: color, background-color, border;
-            transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-            transition-duration: 250ms;
-            
-            
-            &:hover{
-                background-color: $color-section;
-                color: $main-color;
-                box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-            }
-            
+    @media screen and (min-width: 768px) {
+        justify-content: center;
+        max-width: none;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   }
+  
+   .button__btn {
+     color: $black-white-color;
+     text-align: center;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.62;
+     letter-spacing: 0.48px;
+     border-radius: 4px;
+     background: $secondwhite;
+     padding: 6px 22px;
+    border: none;
+    transition-property: color, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    &:hover,
+     &:focus {
+     color: $main-color;
+     background-color: $color-section;
+     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+       0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+   }
+  }
 
 
