@@ -1,128 +1,117 @@
-.team{
-    background-color: $secondwhite;
- 
+
+
+.team {
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
-    
+    background-color: $secondwhite;
   
     @media screen and (min-width: 1200px) {
       padding-top: 94px;
       padding-bottom: 94px;
     }
-
-    &__list{
-        display: flex;
-        flex-wrap: wrap;
-        gap:30px ;
-        justify-content: center;
-    }
-    
-    &__item{
-        background-color:$main-color ;
-        border-radius: 0px 0px 4px 4px;
-        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
-
-        @media screen and (min-width: 768px) {
-            flex-basis: calc((100% - 30px) / 2);
-          }
-          @media screen and (min-width: 1200px) {
-            flex-basis: calc((100% - 90px) / 4);
-          }
-
-
-          
-    }
-    
-    &__title{
-    color: $black-white-color;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 1.84px;
-    margin-bottom: 30px;
-
-    @media screen and (min-width: 1200px) {
+  
+    &__title {
+      color: $black-white-color;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.17;
+      letter-spacing: 0.84px;
+      margin-bottom: 30px;
+  
+      @media screen and (min-width: 1200px) {
         font-size: 36px;
         letter-spacing: 1.08px;
         line-height: 1.16;
         margin-bottom: 50px;
       }
     }
-
-
-
-    &__div{
-        padding-top: 30px;
-        padding-bottom: 30px;
+  
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
     }
-    
-    
-    &__name{
-    color: $black-white-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.48px;
-    margin-bottom: 10px;
+  
+    &__item {
+      flex-basis: 100%;
+      border-radius: 0px 0px 4px 4px;
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  
+      @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+      }
+      @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 90px) / 4);
+      }
     }
-    
-    &__text{
-    color: $imail-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 0.48px;
+  
+    &__img {
+      width: 100%;
     }
-
-
-
-    .icon__team{
-        width: 20px;
-        height: 20px;
-        fill: #AFB1B8;
-        
+  
+    &__wrap {
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
-
-
-
-    &__icon__ul{
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        margin-top: 16px;
+  
+    &__name {
+      color: $black-white-color;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.18;
+      letter-spacing: 0.48px;
+      margin-bottom: 10px;
     }
-    
-    
-
-    
-    &__icon__team{
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    
-    border-radius: 50%;
-    transition-property: color, background-color, border;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-    
-    &:hover{
-        background:$color-section;
-        
-     .icon__team{
-        fill: $main-color;
-     }
+  
+    &__taxt {
+      color:#757575;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.18;
+      letter-spacing: 0.48px;
+      margin-bottom: 16px;
     }
-    &:focus{
-        background:$color-section;
-        border-radius: 50%;
-     .icon__team{
-        fill: $main-color;
-     }
+  
+    &__items {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
     }
+  
+    &__link {
+      padding: 12px 12px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-property: background-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+      &:hover,
+      &:focus {
+        border: none;
+        background-color: $color-section;
+        outline: 0px solid $color-section;
+  
+        .team__icon {
+          fill: $main-color;
+        }
+      }
     }
-
-}
+  
+    &__icon {
+      width: 20px;
+      height: 20px;
+      fill: #afb1b8;
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  
