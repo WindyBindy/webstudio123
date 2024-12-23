@@ -23,6 +23,11 @@
     <header class="header">
         <div class="container header__box">
         <a href="../index.html" class="header__logo"><span class="header__logo__web">Web</span>Studio</a>
+        <button type="button" class="header__btn" data-modal-header-open>
+          <svg class="header__menu">
+            <use href="../img/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
         <nav class="header__nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="../index.html" class="nav__link">Студія</a></li>
@@ -31,9 +36,35 @@
             </ul>
         </nav>
         <ul class="header__list">
-            <li class="header__item"><a href="mailto:info@devstudio.com" class="header__link"><svg class="header__icon"><use href="./img/symbol-defs.svg#icon-emeil"></use></svg> info@devstudio.com</a></li>
-            <li class="header__item"><a href="tel:+380961111111" class="header__link"><svg class="header__icon__phone"><use href="./img/symbol-defs.svg#icon-smartphone"></use></svg> +38 096 111 11 11</a></li>
+            <li class="header__item"><a href="mailto:info@devstudio.com" class="header__link"><svg class="header__icon"><use href="../img/symbol-defs.svg#icon-emeil"></use></svg> info@devstudio.com</a></li>
+            <li class="header__item"><a href="tel:+380961111111" class="header__link"><svg class="header__icon__phone"><use href="../img/symbol-defs.svg#icon-smartphone"></use></svg> +38 096 111 11 11</a></li>
         </ul>
+
+        <div data-header-modal class="menu is-hidden">
+          <button data-modal-header-close class="menu__btn" type="button">
+            <svg class="menu__close">
+              <use href="../img/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item"><a href="../index.html" class="menu__link">Студія</a></li>
+            <li class="menu__item"><a href="./portfolio.html" class="menu__link">Портфоліо</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+          </ul>
+          <div class="menu__position">
+            <ul class="menu__list-contact">
+              <li class="menu__item-contact"><a href="tel:+380961111111" class="menu__link-contact">+38 096 111 11 11</a></li>
+              <li class="menu__item-contact"><a href="mailto:info@devstudio.com" class="menu__link-contact">info@devstudio.com</a></li>
+            </ul>
+            <ul class="menu__list-social">
+              <li class="menu__item-social"><a href="" class="menu__link-social">Instagram</a></li>
+              <li class="menu__item-social"><a href="" class="menu__link-social">Twitter</a></li>
+              <li class="menu__item-social"><a href="" class="menu__link-social">Facebook</a></li>
+              <li class="menu__item-social"><a href="" class="menu__link-social">LinkedIn</a></li>
+            </ul>
+          </div> 
+
+    </div>
     </div>
     </header>
      <main class="main">
@@ -220,7 +251,7 @@
         </div>
       </footer>
 
-    
+      <script src="../js/menu.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>

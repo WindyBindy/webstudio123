@@ -133,11 +133,13 @@
 
             &__list{
                 display: none;
+                
                 flex-direction: column;
                 gap: 10px;
                 margin-left: auto;
                 @media screen and (min-width: 768px) {
                     display: flex;
+                    
                   }
               
                   @media screen and (min-width: 1200px){
@@ -182,7 +184,17 @@
                 
                 
                 
-                
+      &__nav{
+        opacity: 0;
+        display: none;
+    
+      @media screen and (min-width: 768px) {
+        opacity: 1;
+        display: block;
+        
+      }
+      
+      }          
                 
 }
 
@@ -191,12 +203,7 @@
 
 .nav{
 
-
-    display: none;
-
-  @media screen and (min-width: 768px) {
-    display: block;
-  }
+ 
 
     &__link{
         color: $black-white-color;
