@@ -86,6 +86,21 @@ body {
 .header__logo__web {
   color: #2196F3;
 }
+.header__btn {
+  margin-left: 50px;
+  border: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .header__btn {
+    display: none;
+  }
+}
+.header__menu {
+  width: 40px;
+  height: 40px;
+  fill: #000;
+}
 .header__link {
   color: #757575;
   transition-property: color, background-color, border;
@@ -246,6 +261,120 @@ body {
   left: 0;
   bottom: 10;
   opacity: 1;
+}
+
+.menu {
+  background-color: #fff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  padding: 48px 0px 48px 40px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu__btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.menu__close {
+  width: 40px;
+  height: 40px;
+  fill: #212121;
+}
+
+.menu__item:first-child {
+  margin-bottom: 36px;
+}
+
+.menu__item:nth-child(2) {
+  margin-bottom: 32px;
+}
+
+.menu__link {
+  color: #212121;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.8px;
+}
+
+.menu__link:hover {
+  color: #2196F3;
+}
+
+.menu__position {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  margin-top: auto;
+}
+
+.menu__list-contact {
+  margin-top: 200px;
+}
+
+.menu__item-contact:first-child {
+  margin-bottom: 32px;
+}
+
+.menu__link-contact {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+}
+
+.menu__item-contact:first-child .menu__link-contact {
+  color: #2196F3;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.68px;
+}
+
+.menu__list-social {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__link-social {
+  color: #2196F3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.36px;
+}
+
+.menu__item-social:not(:last-child) {
+  margin-right: 10px;
+  display: flex;
+}
+.menu__item-social:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  height: 22px;
+  background: rgba(33, 33, 33, 0.2);
+  margin-left: 10px;
 }
 
 .hero {
