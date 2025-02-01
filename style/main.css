@@ -20,7 +20,6 @@ h1, h2, h3, h4, p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
